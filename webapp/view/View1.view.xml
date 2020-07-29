@@ -1,0 +1,14 @@
+<mvc:View controllerName="ovly.hanadeveloper.SmartTable.controller.View1" xmlns:mvc="sap.ui.core.mvc" xmlns:st="sap.ui.comp.smarttable"
+	displayBlock="true" xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						<st:SmartTable entitySet="ZT48_16_EMPLOYEES1" tableType="ResponsiveTable" enableAutoBinding="true" />
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
